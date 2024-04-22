@@ -10,4 +10,7 @@
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>Catalog.ДоговорыКонтрагентов</content>
   <content>Catalog.Контрагенты</content>
+  <content>Constant.ВКМ_ТокенУправленияТелеграмБотом</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
+  <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
 </mdclass:Subsystem>
