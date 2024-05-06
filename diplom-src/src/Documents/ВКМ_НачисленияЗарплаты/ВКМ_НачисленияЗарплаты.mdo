@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2bace60f-1bb2-4aad-acb0-2d501293b0f7">
+  <producedTypes>
+    <objectType typeId="2cd10c12-9fd3-467d-8e8a-018dd99391ab" valueTypeId="9253675d-267d-46b0-ba5f-eb1b41082a73"/>
+    <refType typeId="9ab1f9fc-8b96-4bdf-984d-b43efc6772aa" valueTypeId="321ce105-0ef9-4d1e-b244-973769116bd2"/>
+    <selectionType typeId="3654cb5b-6ef9-4119-99ea-b8cfa8ee4ce1" valueTypeId="bf1f9c57-9355-4998-ac11-a1429dd9f9da"/>
+    <listType typeId="598b3ed4-4d12-4bdf-a621-ecf7fb14cee6" valueTypeId="1b2993b5-b64c-4fac-864e-bbe7b961eabf"/>
+    <managerType typeId="fe4c21a3-fca5-4159-982b-5cff1ecbaaf8" valueTypeId="e282a1db-4e44-429d-bb50-e0505e2eac43"/>
+  </producedTypes>
+  <name>ВКМ_НачисленияЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисления зарплаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВКМ_НачисленияЗарплаты.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="7ab976c4-a901-47b2-948b-0ca4ce324341">
+    <producedTypes>
+      <objectType typeId="7cf1ab54-f260-49c1-a639-ff14a021cea8" valueTypeId="a8049101-000c-46a9-b9de-1facf32cf985"/>
+      <rowType typeId="41b1accc-6a76-4a49-99fe-7321dc05b67d" valueTypeId="34d94f44-3247-41b4-8454-679377c0a9da"/>
+    </producedTypes>
+    <name>Начисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начисления</value>
+    </synonym>
+  </tabularSections>
+</mdclass:Document>

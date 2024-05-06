@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b50aad04-cccf-4cc4-8315-3ad753dc8598">
+  <producedTypes>
+    <objectType typeId="880a10a2-4359-41e4-bd51-76fee3e2ee5b" valueTypeId="66b13429-1bdd-4f2b-9890-d97a153e7c3e"/>
+    <refType typeId="77dbd216-20d9-42e8-89c6-ba95e023b171" valueTypeId="9b0dfb99-83c8-4fe5-9ee3-51a04ba7db20"/>
+    <selectionType typeId="178f3fdd-443f-47fd-89b3-8bf5e7aa426e" valueTypeId="bd2d8ae9-2419-4c99-817c-b8fd25fd3fb5"/>
+    <listType typeId="becb8380-3418-44bd-a38c-00ae401a8a18" valueTypeId="12818457-9c66-493d-acd4-7ede10282d01"/>
+    <managerType typeId="7e48aadd-ff9f-4908-92b1-1364850bf224" valueTypeId="3b6ba015-6e95-4c87-ab47-e449db600e5e"/>
+  </producedTypes>
+  <name>ВКМ_НачислениеФиксированнойПремии</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ начисление фиксированной премии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВКМ_НачислениеФиксированнойПремии.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="e0c2cbec-72b2-4cf7-9f87-a4a751b7dde7">
+    <producedTypes>
+      <objectType typeId="48575fd6-3625-41c8-839a-11f62b0dfaac" valueTypeId="cfd91c8a-df2c-46f9-9913-7fad36f17bfa"/>
+      <rowType typeId="e35c1c66-dcaf-433a-86ba-9342d36eb98d" valueTypeId="31089731-2e52-443b-899e-df4097313879"/>
+    </producedTypes>
+    <name>ВКМ_СписокСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список сотрудников</value>
+    </synonym>
+  </tabularSections>
+</mdclass:Document>

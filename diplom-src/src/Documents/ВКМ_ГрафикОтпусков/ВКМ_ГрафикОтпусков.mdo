@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7bda1ab-8879-4c9f-8559-bbcc5b24d332">
+  <producedTypes>
+    <objectType typeId="eb673baf-1297-4f29-9834-ee5edbfced8b" valueTypeId="9f3e3b51-3d63-4603-8adf-8f7b31fec401"/>
+    <refType typeId="93752077-75c7-43b3-900d-25c78dafcfce" valueTypeId="9e3ddc16-dd7b-4737-9493-69e3a437b8a9"/>
+    <selectionType typeId="78ab2942-83e9-470f-bb97-6b8b4863fb3e" valueTypeId="ae09833d-4531-4d6e-a4a4-6d702fe10331"/>
+    <listType typeId="9d3b846f-b98e-4a0e-983a-6eb5a22a5394" valueTypeId="a3442de6-8bbd-4f76-8204-270d1c9764ea"/>
+    <managerType typeId="53ee63ec-de81-48f0-ae96-eec5f3d5dcbd" valueTypeId="45fdf846-34f8-4611-b781-ef525cd285dd"/>
+  </producedTypes>
+  <name>ВКМ_ГрафикОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>График отпусков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВКМ_ГрафикОтпусков.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВКМ_ГрафикОтпусков.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="9f6a63c9-84aa-47b4-b3a1-78d5ed2d62f8">
+    <name>ВКМ_Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВКМ год</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="75c6bf0d-51ea-4b45-8ed0-3d7404550d01">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="59c20a35-8c7c-4c08-809b-600b0fab5860">
+    <producedTypes>
+      <objectType typeId="a6b7a01b-1d59-44cf-8a7d-d33fe9dcc755" valueTypeId="e6c6c7d5-2696-4d8c-a697-a9749a6819c9"/>
+      <rowType typeId="234fd52b-8286-46dc-b024-04326d0595e5" valueTypeId="5554a81e-4448-4c52-b484-f3c36b760cc5"/>
+    </producedTypes>
+    <name>ВКМ_ОтпускаСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВКМ отпуска сотрудников</value>
+    </synonym>
+    <attributes uuid="11125cc9-d4c1-4c0e-a25f-4361c03899a7">
+      <name>ВКМ_Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b7aa8d8a-7e5a-480e-876b-931d7f34f055">
+      <name>ВКМ_ДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="753b7f48-6d95-4b47-ab24-3bfaf34641c2">
+      <name>ВКМ_ДатаОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
