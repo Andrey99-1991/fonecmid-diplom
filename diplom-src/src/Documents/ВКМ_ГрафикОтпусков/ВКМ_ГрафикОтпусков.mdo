@@ -53,6 +53,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="18fd1fbd-48b2-4200-9dc6-e08c4dfdb822">
+    <name>ВКМ_АнализГрафика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ графика</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="59c20a35-8c7c-4c08-809b-600b0fab5860">
     <producedTypes>
       <objectType typeId="a6b7a01b-1d59-44cf-8a7d-d33fe9dcc755" valueTypeId="e6c6c7d5-2696-4d8c-a697-a9749a6819c9"/>
@@ -105,6 +114,23 @@
         <dateQualifiers>
           <dateFractions>Date</dateFractions>
         </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f80773e9-efbb-45a7-a73a-736b6438b3c1">
+      <name>ВКМ_ВсегоДней</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВКМ всего дней</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
