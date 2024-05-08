@@ -26,7 +26,6 @@
     <labelsColor xsi:type="core:ColorRef">
       <color>Style.FormTextColor</color>
     </labelsColor>
-    <labelsFont xsi:type="core:AutoFont"/>
     <transparentLabelsBkg>true</transparentLabelsBkg>
     <labelsBorder xsi:type="core:BorderDef">
       <style>Single</style>
@@ -67,9 +66,6 @@
     <chTxtColor xsi:type="core:ColorRef">
       <color>Style.FormTextColor</color>
     </chTxtColor>
-    <ttlFont xsi:type="core:AutoFont"/>
-    <legFont xsi:type="core:AutoFont"/>
-    <chFont xsi:type="core:AutoFont"/>
     <isShowScale>true</isShowScale>
     <isShowScaleVL>true</isShowScaleVL>
     <isShowSeriesScale>true</isShowSeriesScale>
@@ -111,6 +107,7 @@
     </gaugeBushColor>
     <autoMaxValue>true</autoMaxValue>
     <autoMinValue>true</autoMinValue>
+    <elementsIsInit>true</elementsIsInit>
     <titleIsInit>true</titleIsInit>
     <legendIsInit>true</legendIsInit>
     <chartIsInit>true</chartIsInit>
@@ -134,6 +131,9 @@
     </border>
     <splineStrain>95</splineStrain>
     <translucenceMode>Auto</translucenceMode>
+    <funnelNeckHeightPercent>0.1</funnelNeckHeightPercent>
+    <funnelNeckWidthPercent>0.1</funnelNeckWidthPercent>
+    <funnelGapSumPercent>0.03</funnelGapSumPercent>
     <multiStageLinkLine>
       <width>1</width>
       <style>Solid</style>
@@ -193,7 +193,9 @@
       <titlePlacement>SpecialArea</titlePlacement>
       <labelOrientation>Auto</labelOrientation>
     </seriesScale>
-    <colorPaletteDescription/>
+    <colorPaletteDescription>
+      <colorPalette>Auto</colorPalette>
+    </colorPaletteDescription>
     <referenceBandsColorPaletteDescription>
       <colorPalette>Auto</colorPalette>
     </referenceBandsColorPaletteDescription>
@@ -224,7 +226,6 @@
   <points>
     <value>
       <baseData>4294963201</baseData>
-      <font xsi:type="core:AutoFont"/>
     </value>
     <contentCacheItem>
       <mainColor xsi:type="core:ColorDef"/>
@@ -233,7 +234,7 @@
     <autoText>true</autoText>
   </points>
   <series>
-    <value>
+    <value xsi:type="ganttchart:PointDimensionValue">
       <baseData>4294963201</baseData>
     </value>
     <contentCacheItem>
@@ -257,6 +258,7 @@
         <green>192</green>
         <blue>192</blue>
       </scaleColor>
+      <dayFormatRule>MonthDayWeekDay</dayFormatRule>
       <labels/>
       <showPereodicalLabels>true</showPereodicalLabels>
     </levels>
@@ -267,9 +269,9 @@
       <color>Style.FormTextColor</color>
     </textColor>
   </timeScale>
-  <keepScaleVariant>Period</keepScaleVariant>
-  <fixedVariantMeasure>Week</fixedVariantMeasure>
-  <fixedVariantInterval>2</fixedVariantInterval>
+  <keepScaleVariant>AllData</keepScaleVariant>
+  <fixedVariantMeasure>Month</fixedVariantMeasure>
+  <fixedVariantInterval>1</fixedVariantInterval>
   <autoFullInterval>true</autoFullInterval>
   <fullIntervalBegin>2016-12-31T00:00:00</fullIntervalBegin>
   <fullIntervalEnd>2017-01-10T23:59:59</fullIntervalEnd>

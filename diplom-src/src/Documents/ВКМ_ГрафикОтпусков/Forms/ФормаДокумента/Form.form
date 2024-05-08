@@ -372,10 +372,6 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ВКМ_ОтпускаСотрудников.ВКМ_ДатаОкончания</segments>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ВКМ_ОтпускаСотрудниковВКМ_ДатаОкончанияПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ВКМ_ОтпускаСотрудниковВКМ_ДатаОкончанияРасширеннаяПодсказка</name>
         <id>34</id>

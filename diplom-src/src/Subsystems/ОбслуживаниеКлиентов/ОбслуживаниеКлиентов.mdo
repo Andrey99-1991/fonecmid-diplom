@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1794ba9-38fd-4e44-909d-e1bf74823f88">
-  <name>ВКМ_ОбслуживаниеКлиентов</name>
+  <name>ОбслуживаниеКлиентов</name>
   <synonym>
     <key>ru</key>
     <value>Обслуживание клиентов</value>
