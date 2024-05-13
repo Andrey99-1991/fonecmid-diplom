@@ -15,6 +15,8 @@
   <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
   <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
   <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
-  <content>DataProcessor.ВМК_ЗаполнениеГрафика</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
   <content>Document.ВКМ_НачисленияЗарплаты</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
 </mdclass:Subsystem>

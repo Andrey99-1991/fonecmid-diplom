@@ -49,30 +49,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="b2660368-6be9-45e4-a6b7-37135b3fb774">
-    <name>ВКМ_Подразделение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Подразделение</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ВКМ_Подразделения</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <tabularSections uuid="7ab976c4-a901-47b2-948b-0ca4ce324341">
     <producedTypes>
       <objectType typeId="7cf1ab54-f260-49c1-a639-ff14a021cea8" valueTypeId="a8049101-000c-46a9-b9de-1facf32cf985"/>
       <rowType typeId="41b1accc-6a76-4a49-99fe-7321dc05b67d" valueTypeId="34d94f44-3247-41b4-8454-679377c0a9da"/>
     </producedTypes>
-    <name>Начисления</name>
+    <name>ВКМ_ОсновныеНачисления</name>
     <synonym>
       <key>ru</key>
-      <value>Начисления</value>
+      <value>Основные начисления</value>
     </synonym>
     <attributes uuid="b0a00cc8-7d49-49bb-a324-cefdb11d4a92">
       <name>ВКМ_Сотрудник</name>
@@ -162,6 +147,59 @@
           <precision>15</precision>
           <scale>2</scale>
         </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="df288248-9302-42c0-9db4-5cc8b9660494">
+    <producedTypes>
+      <objectType typeId="a072fc63-4494-4d5a-b97b-b821a3149093" valueTypeId="50b9834a-5e91-4309-981d-5dee1cb1c6a7"/>
+      <rowType typeId="af2a2ebe-732a-43f5-802a-dd470c68e8a7" valueTypeId="a21d7c34-55f0-4f98-8236-9e3698060f25"/>
+    </producedTypes>
+    <name>ВКМ_ДополнительныеНачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные начисления</value>
+    </synonym>
+    <attributes uuid="5a68b1d6-0565-423a-9343-3c33ced4b4d6">
+      <name>ВКМ_Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВКМ_Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="27c58083-8363-430c-9f1e-8674c4eb4a49">
+      <name>ВКМ_Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВКМ_Подразделения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ffef8b2b-d4e7-494b-9249-fb567ddc9f4c">
+      <name>ВКМ_ВидРасчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид расчета</value>
+      </synonym>
+      <type>
+        <types>ChartOfCalculationTypesRef.ВКМ_ДополнительныеНачисления</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

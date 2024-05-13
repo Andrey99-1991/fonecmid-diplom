@@ -12,17 +12,21 @@
   <name>ВКМ_УсловияОплатыСотрудников</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ условия оплаты сотрудников</value>
+    <value>Условия оплаты сотрудников</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Условия оплаты сотрудника</value>
+  </recordPresentation>
   <resources uuid="15b7e7cb-952b-4d4c-9893-78b33beae027">
     <name>ВКМ_Оклад</name>
     <synonym>
       <key>ru</key>
-      <value>ВКМ оклад</value>
+      <value>Оклад</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -60,10 +64,10 @@
     <name>ВКМ_Сотрудник</name>
     <synonym>
       <key>ru</key>
-      <value>ВКМ сотрудник</value>
+      <value>Сотрудник</value>
     </synonym>
     <type>
-      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.ВКМ_Сотрудники</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
