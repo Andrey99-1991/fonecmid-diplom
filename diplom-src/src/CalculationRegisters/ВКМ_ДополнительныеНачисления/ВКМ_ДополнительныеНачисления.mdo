@@ -40,10 +40,10 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <attributes uuid="b39239e5-bbb4-49e6-ba40-51218c595cb8">
-    <name>ВКМ_Размер</name>
+    <name>ВКМ_Показатель</name>
     <synonym>
       <key>ru</key>
-      <value>Размер</value>
+      <value>Показатель</value>
     </synonym>
     <type>
       <types>Number</types>

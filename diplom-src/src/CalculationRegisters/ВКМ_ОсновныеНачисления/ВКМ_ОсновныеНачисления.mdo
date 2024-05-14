@@ -17,6 +17,7 @@
   <useStandardCommands>true</useStandardCommands>
   <periodicity>Month</periodicity>
   <actionPeriod>true</actionPeriod>
+  <basePeriod>true</basePeriod>
   <schedule>InformationRegister.ВКМ_ГрафикиРаботы</schedule>
   <scheduleValue>InformationRegister.ВКМ_ГрафикиРаботы.Resource.ВКМ_Значение</scheduleValue>
   <scheduleDate>InformationRegister.ВКМ_ГрафикиРаботы.Dimension.ВКМ_Дата</scheduleDate>
@@ -43,11 +44,28 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <attributes uuid="49044c14-12cd-4d3c-8fb3-9a999e4debca">
-    <name>ВКМ_Размер</name>
+  <resources uuid="2d0dc2b6-052f-45a5-870e-21a829126bc4">
+    <name>ВКМ_ЧасовОтработано</name>
     <synonym>
       <key>ru</key>
-      <value>Размер</value>
+      <value>ВКМ часов отработано</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="49044c14-12cd-4d3c-8fb3-9a999e4debca">
+    <name>ВКМ_Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
     </synonym>
     <type>
       <types>Number</types>

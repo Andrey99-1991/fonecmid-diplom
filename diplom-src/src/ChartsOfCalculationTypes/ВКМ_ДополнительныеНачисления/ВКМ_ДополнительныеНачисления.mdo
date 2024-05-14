@@ -41,10 +41,17 @@
   <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</baseCalculationTypes>
   <predefined>
     <items id="bb3cf18f-bca1-40d9-bbd1-9c85e8743a51">
+      <name>ПроцентОтРабот</name>
+      <description>Процент от работ</description>
+      <code xsi:type="core:StringValue">
+        <value>1</value>
+      </code>
+    </items>
+    <items id="9ecc9e50-adf6-47cb-afd7-8f79bbfadcce">
       <name>Премия</name>
       <description>Премия</description>
       <code xsi:type="core:StringValue">
-        <value>1</value>
+        <value>2</value>
       </code>
     </items>
   </predefined>
