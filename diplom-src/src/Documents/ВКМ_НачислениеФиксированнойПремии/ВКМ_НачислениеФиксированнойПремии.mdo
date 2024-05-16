@@ -27,6 +27,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <realTimePosting>Deny</realTimePosting>
   <registerRecords>CalculationRegister.ВКМ_ДополнительныеНачисления</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -48,12 +49,27 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="019b4c8d-ff85-4281-90c4-e8b5e2f862e6">
+    <name>ВКМ_Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="e0c2cbec-72b2-4cf7-9f87-a4a751b7dde7">
     <producedTypes>
       <objectType typeId="48575fd6-3625-41c8-839a-11f62b0dfaac" valueTypeId="cfd91c8a-df2c-46f9-9913-7fad36f17bfa"/>
       <rowType typeId="e35c1c66-dcaf-433a-86ba-9342d36eb98d" valueTypeId="31089731-2e52-443b-899e-df4097313879"/>
     </producedTypes>
-    <name>Начисления</name>
+    <name>ВКМ_СписокСотрудников</name>
     <synonym>
       <key>ru</key>
       <value>Список сотрудников</value>
@@ -72,73 +88,11 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="924a9c3f-7949-4a4f-8cf9-eb09858e68a3">
-      <name>ВКМ_Подразделение</name>
-      <synonym>
-        <key>ru</key>
-        <value>Подразделение</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.ВКМ_Подразделения</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="be59c437-7500-4395-b177-0a7e09ff5c8e">
-      <name>ВКМ_ВидРасчета</name>
+      <name>ВКМ_СуммаПремии</name>
       <synonym>
         <key>ru</key>
-        <value>Вид расчета</value>
-      </synonym>
-      <type>
-        <types>ChartOfCalculationTypesRef.ВКМ_ДополнительныеНачисления</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="1350226c-dac1-4c9e-8e37-d0a0e683d063">
-      <name>ВКМ_ДатаНачала</name>
-      <synonym>
-        <key>ru</key>
-        <value>Дата начала</value>
-      </synonym>
-      <type>
-        <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Date</dateFractions>
-        </dateQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="7d59f158-22e5-42a3-b2bf-5c12edd1f76a">
-      <name>ВКМ_ДатаОкончания</name>
-      <synonym>
-        <key>ru</key>
-        <value>Дата окончания</value>
-      </synonym>
-      <type>
-        <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Date</dateFractions>
-        </dateQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="705ebaa3-2924-4204-b992-52cea3a0efb1">
-      <name>ВКМ_Размер</name>
-      <synonym>
-        <key>ru</key>
-        <value>Размер</value>
+        <value>СуммаПремии</value>
       </synonym>
       <type>
         <types>Number</types>

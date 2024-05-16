@@ -39,7 +39,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <attributes uuid="b39239e5-bbb4-49e6-ba40-51218c595cb8">
+  <attributes uuid="e4b89d3d-c673-43a5-9ca5-0f86ff04708b">
     <name>ВКМ_Показатель</name>
     <synonym>
       <key>ru</key>
