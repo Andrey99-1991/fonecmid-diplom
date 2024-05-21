@@ -19,4 +19,5 @@
   <content>Document.ВКМ_НачисленияЗарплаты</content>
   <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
   <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
 </mdclass:Subsystem>
