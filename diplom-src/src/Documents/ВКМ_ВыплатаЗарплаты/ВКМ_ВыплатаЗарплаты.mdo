@@ -1,39 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b50aad04-cccf-4cc4-8315-3ad753dc8598">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8529ae75-bfd8-40a6-ad3d-2a49ec8ad2ff">
   <producedTypes>
-    <objectType typeId="880a10a2-4359-41e4-bd51-76fee3e2ee5b" valueTypeId="66b13429-1bdd-4f2b-9890-d97a153e7c3e"/>
-    <refType typeId="77dbd216-20d9-42e8-89c6-ba95e023b171" valueTypeId="9b0dfb99-83c8-4fe5-9ee3-51a04ba7db20"/>
-    <selectionType typeId="178f3fdd-443f-47fd-89b3-8bf5e7aa426e" valueTypeId="bd2d8ae9-2419-4c99-817c-b8fd25fd3fb5"/>
-    <listType typeId="becb8380-3418-44bd-a38c-00ae401a8a18" valueTypeId="12818457-9c66-493d-acd4-7ede10282d01"/>
-    <managerType typeId="7e48aadd-ff9f-4908-92b1-1364850bf224" valueTypeId="3b6ba015-6e95-4c87-ab47-e449db600e5e"/>
+    <objectType typeId="38f6773e-fba6-4e54-8c74-5710319e345f" valueTypeId="d86f7a95-29ee-4a87-9b2c-4eb2ba4861e4"/>
+    <refType typeId="44013160-fc47-4b8c-b16e-050a33134d8c" valueTypeId="1168de10-c7ca-4e17-95e3-d36615362e74"/>
+    <selectionType typeId="7e90e0ef-b9e2-4839-8c30-c675cdbf267e" valueTypeId="c2c21019-ea62-41c1-8b77-80a23c67f12b"/>
+    <listType typeId="f1725a16-dcd2-4e83-979e-887228818299" valueTypeId="0338b513-4b85-413e-a60f-74bec5f0da8f"/>
+    <managerType typeId="53d3e77b-9f61-4ed7-b0c4-d472f879f8e5" valueTypeId="4c86791d-ca2b-49da-90bb-19d7fbff1242"/>
   </producedTypes>
-  <name>ВКМ_НачислениеФиксированнойПремии</name>
+  <name>ВКМ_ВыплатаЗарплаты</name>
   <synonym>
     <key>ru</key>
-    <value>Начисление фиксированной премии</value>
+    <value>Выплата зарплаты</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ВКМ_НачислениеФиксированнойПремии.StandardAttribute.Number</inputByString>
+  <inputByString>Document.ВКМ_ВыплатаЗарплаты.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Начисление фиксированной премии</value>
+    <value>Выплата зарплаты</value>
   </objectPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <realTimePosting>Deny</realTimePosting>
-  <registerRecords>CalculationRegister.ВКМ_ДополнительныеНачисления</registerRecords>
-  <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
+  <defaultObjectForm>Document.ВКМ_ВыплатаЗарплаты.Form.ВКМ_ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="23c160c4-695a-47b9-b9a8-67a2821e5b64">
+  <attributes uuid="b43f9ce7-e3b6-4863-be0b-41cd302a3a59">
     <name>ВКМ_ПериодРегистрации</name>
     <synonym>
       <key>ru</key>
@@ -47,11 +45,12 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="019b4c8d-ff85-4281-90c4-e8b5e2f862e6">
+  <attributes uuid="29976ded-385d-4b4a-8d02-fe42ab0c7c7c">
     <name>ВКМ_Подразделение</name>
     <synonym>
       <key>ru</key>
@@ -66,17 +65,26 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="e0c2cbec-72b2-4cf7-9f87-a4a751b7dde7">
-    <producedTypes>
-      <objectType typeId="48575fd6-3625-41c8-839a-11f62b0dfaac" valueTypeId="cfd91c8a-df2c-46f9-9913-7fad36f17bfa"/>
-      <rowType typeId="e35c1c66-dcaf-433a-86ba-9342d36eb98d" valueTypeId="31089731-2e52-443b-899e-df4097313879"/>
-    </producedTypes>
-    <name>ВКМ_СписокСотрудников</name>
+  <forms uuid="66619271-a7d2-4872-aed0-fbca39376ea6">
+    <name>ВКМ_ФормаДокумента</name>
     <synonym>
       <key>ru</key>
-      <value>Список сотрудников</value>
+      <value>Форма документа</value>
     </synonym>
-    <attributes uuid="f436889e-39da-48e1-bb26-e2b3d854ca7a">
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="0c41d159-9c0f-4b43-8c74-3a9d4d38d0e6">
+    <producedTypes>
+      <objectType typeId="fb7eea59-8a8a-4fed-a980-620453ec52e9" valueTypeId="e7783f58-6356-4968-9cd4-328904e00298"/>
+      <rowType typeId="964bade4-18ee-433f-b686-5944171ddcf1" valueTypeId="2ca0c90b-7684-42c4-90e7-f0b9464b3bf1"/>
+    </producedTypes>
+    <name>ВКМ_Выплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выплаты</value>
+    </synonym>
+    <attributes uuid="8befed5b-e73d-44af-920c-070bf998a686">
       <name>ВКМ_Сотрудник</name>
       <synonym>
         <key>ru</key>
@@ -90,11 +98,11 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="be59c437-7500-4395-b177-0a7e09ff5c8e">
-      <name>ВКМ_СуммаПремии</name>
+    <attributes uuid="586374fc-9f1b-42e1-971e-b67d540ec935">
+      <name>ВКМ_Сумма</name>
       <synonym>
         <key>ru</key>
-        <value>СуммаПремии</value>
+        <value>Сумма</value>
       </synonym>
       <type>
         <types>Number</types>

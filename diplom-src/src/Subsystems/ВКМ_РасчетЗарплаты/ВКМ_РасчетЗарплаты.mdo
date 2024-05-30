@@ -20,4 +20,6 @@
   <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
   <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
   <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
 </mdclass:Subsystem>
