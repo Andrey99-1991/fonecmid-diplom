@@ -54,7 +54,7 @@
     <name>ВКМ_Клиент</name>
     <synonym>
       <key>ru</key>
-      <value>ВКМ клиент</value>
+      <value>Клиент</value>
     </synonym>
     <type>
       <types>CatalogRef.Контрагенты</types>
