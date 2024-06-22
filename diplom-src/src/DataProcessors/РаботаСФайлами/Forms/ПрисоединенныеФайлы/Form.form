@@ -5650,6 +5650,30 @@
     </toolTip>
     <use>
       <common>true</common>
+      <for>
+        <role>Role.БазовыеПраваБСП</role>
+      </for>
+      <for>
+        <role>Role.ЗапускТолстогоКлиента</role>
+      </for>
+      <for>
+        <role>Role.ЗапускТонкогоКлиента</role>
+      </for>
+      <for>
+        <role>Role.ЧтениеВариантовОтчетов</role>
+      </for>
+      <for>
+        <role>Role.ВКМ_БухгалтерИТФирмы</role>
+      </for>
+      <for>
+        <role>Role.ВКМ_Менеджер</role>
+      </for>
+      <for>
+        <role>Role.ВКМ_Специалист</role>
+      </for>
+      <for>
+        <role>Role.ВКМ_КадровикРасчетчик</role>
+      </for>
     </use>
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.DeleteDirectly</picture>

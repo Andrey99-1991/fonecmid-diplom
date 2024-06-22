@@ -5,6 +5,7 @@
     <subsystems>Subsystem.Деньги</subsystems>
     <subsystems>Subsystem.ВКМ_ОбслуживаниеКлиентов</subsystems>
     <subsystems>Subsystem.ВКМ_РасчетЗарплаты</subsystems>
+    <subsystems>Subsystem.ВКМ_Отчеты</subsystems>
     <subsystems>Subsystem.Администрирование</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>
