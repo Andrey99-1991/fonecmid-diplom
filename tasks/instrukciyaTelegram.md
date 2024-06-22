@@ -18,10 +18,10 @@
 			Рисунок 6. Идентификатор группы «AS_DJ_companybot»    
 Для отправки сообщений в телеграмм бот необходимо включить регламеное задание и настроить расписание  
 для этого необходимо зайти в раздел "Администрирование" ------ "Обслуживание" ------------ Выбрать "Регламентные операции" и открыть "Регламентные и фоновые задания" (см. рисунок 7).  
-![risunpk7](https://github.com/Andrey99-1991/fonecmid-diplom/blob/main/kartinki/%D0%A0%D0%B8%D1%81%D0%A0%D0%B5%D0%B3%D0%BB2.png)    
+![risunpk7](https://github.com/Andrey99-1991/fonecmid-diplom/blob/main/kartinki/%D0%A0%D0%B8%D1%81%D0%A0%D0%B5%D0%B3%D0%BB1.jpg)    
 Рисунок 7.Регламентные и фоновые задания»  
 Открыть задание "Отправка сообщений в телеграмм" и установить галочку "Включено" (см. рисунок 8) после этого нажать на кнопку "Расписание" (см. рисунок 8) и установить расписание (см. рисунок 9) отправки сообщений в телеграмм   
-![risunpk8](https://github.com/Andrey99-1991/fonecmid-diplom/blob/main/kartinki/%D0%A0%D0%B8%D1%81%D0%A0%D0%B5%D0%B3%D0%BB4.png)    
+![risunpk8](https://github.com/Andrey99-1991/fonecmid-diplom/blob/main/kartinki/%D0%A0%D0%B8%D1%81%D0%A0%D0%B5%D0%B3%D0%BB2.jpg)    
 Рисунок 8.Включение регламентного задания»    
-![risunpk9](https://github.com/Andrey99-1991/fonecmid-diplom/blob/main/kartinki/%D0%A0%D0%B8%D1%81%D0%A0%D0%B5%D0%B3%D0%BB5.png)    
+![risunpk9](https://github.com/Andrey99-1991/fonecmid-diplom/blob/main/kartinki/%D0%A0%D0%B8%D1%81%D0%A0%D0%B5%D0%B3%D0%BB3.jpg)    
 Рисунок 9."Расписание регламентного задания"  
